@@ -32,7 +32,7 @@ class CreateCityTable extends AbstractMigration
     public function change()
     {
         $city = $this->table('city');
-        $city->addColumn(id)
+        $city->addColumn(id);
     }
 
     public function up()
